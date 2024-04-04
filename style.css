@@ -1,0 +1,179 @@
+.navbar{
+    display: flex;
+    gap: 10%;
+    background-color: #ecf4f7;
+}
+.vet{
+    color: orangered;
+}
+.fam{
+    color: grey;
+}
+.members{
+    font-size: x-large;
+    font-style: inherit;
+}
+.container1{
+    display: flex;
+    background-color: #ecf4f7;
+    gap: 20%;
+    padding-left: 10%;
+}
+/* .alexandra{
+    display: flex;
+    gap: 5%;
+    bottom: 10px;
+    left: -4%;
+    background-color: azure;
+
+} */
+.mypet{
+    position: relative;
+    border-radius: 20%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.doctor{
+border-radius: 50%;
+}
+body{
+    padding: 200px;
+}
+/* .laugh{
+    position: absolute;
+    background-color: rgb(253, 238, 218);
+    padding: 0 1%;
+    top: -10%;
+} */
+.years{
+    background-color: rgb(250, 237, 237);
+    padding:  0;
+}
+.tongue{
+    position: absolute;
+}
+.service{
+    display: flex;
+    gap: 10%;
+    text-align: center;
+}
+container2{
+    display: grid;
+}
+.radiology{
+    display: flex;
+    gap: 10%;
+    padding: 20px;
+    background-color: rgb(245, 247, 247);
+    font-size: large;
+}
+.container3{
+    display: flex;
+    background-color: #e1f1f7;
+    gap: 5%;
+}
+.colorb{
+    color: rgb(81, 81, 221);
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+.images{
+    border-radius: 50%;
+    
+}
+.services{
+    display: flex;
+    gap: 5%;
+}
+.reviews{
+    display: flex;
+    gap: 5%;
+}
+.icons{
+color: rgb(235, 111, 67);
+display: flex;
+align-items: center;
+}
+.people{
+    display: flex;
+    gap: 20%;
+}
+.docs{
+    display: flex;
+}
+.vets{
+    display: flex;
+    gap: 10%;
+}
+.black{
+    object-fit: cover;
+}
+.input{
+    border-color: transparent;
+    padding: 28px;
+    width: 30%;
+    border-radius:10px ;
+    background-color: rgb(252, 229, 229);
+    
+}
+.button{
+    margin-left: -150px;
+    margin-top: -22px;
+}
+.blog{
+    background-color: rgb(227, 241, 237);
+    padding: 40px;
+text-align: center;
+}
+.socials{
+    display: flex;
+    gap: 5%;
+    color: rgb(97, 97, 235);
+}
+.footer{
+    display: flex;
+    gap: 20%;
+    padding: 40px;
+}
+button{
+    background-color: rgb(13, 129, 129);
+    border-radius: 20px;
+    padding: 20px 40px;
+    color: white;
+    border-color: rgb(13, 129, 129);
+}
+@media only screen and (min-width:280px) and (max-width:680px){
+    .navbar{
+        flex-direction: column;
+        gap: 5%;
+        background-color: #ecf4f7;
+    }
+
+    .container1{
+        display: flex;
+        background-color: #ecf4f7;
+        gap: 20%;
+    }
+    .mypet{
+        position: relative;
+        border-radius: 20%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    body{
+        padding: 200px;
+    }
+
+    .radiology{
+        flex-direction: column;
+        gap: 10%;
+        padding: 20px;
+        background-color: rgb(245, 247, 247);
+        font-size: large;
+    }
+
+
+}
